@@ -185,7 +185,7 @@ getServer().getPluginManager().registerEvents(this, this);
         if (command.getName().equalsIgnoreCase("cfrupdate")) {
         	if (sender.hasPermission("cfr.update")) {
         		if (checkUpdate()) {
-        			sender.sendMessage("§b[CFR] Updating Campfire_Recipes...");
+        			sender.sendMessage("§b[CFR] Updating CampfireRecipes...");
 					updater = new Updater(this, ID, this.getFile(), Updater.UpdateType.DEFAULT, true);
 					updater.getResult();
 					sender.sendMessage("§b[CFR] Use §e/reload §bto apply changes.");

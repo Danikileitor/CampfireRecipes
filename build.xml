@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="Campfire_Recipes" default="makejar" basedir=".">
     <target name="makejar" description="Create a jar for the project">
-        <mkdir dir="target"></mkdir>
-<!--        <jar destfile="target/${ant.project.name}.jar">-->
     	<jar destfile="C:\Users\Usuario\Desktop\Minecraft\PaperMC\1.14.4\plugins/CampfireRecipes.jar">
             <fileset dir="bin"></fileset>
             <fileset file="plugin.yml"></fileset>
