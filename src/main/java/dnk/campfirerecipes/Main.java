@@ -1,4 +1,4 @@
-package ml.dnk.campfirerecipes;
+package dnk.campfirerecipes;
 
 import java.util.Iterator;
 import java.util.logging.Logger;
@@ -28,7 +28,7 @@ import org.bukkit.persistence.PersistentDataType;
 import org.bukkit.plugin.PluginDescriptionFile;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class main extends JavaPlugin implements Listener{
+public class Main extends JavaPlugin implements Listener{
 //	Updater
 		private PluginDescriptionFile desc = getDescription();
 		private static final int ID = 335690;
